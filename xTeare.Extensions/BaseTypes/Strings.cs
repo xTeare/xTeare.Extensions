@@ -35,10 +35,12 @@ namespace xTeare.Extensions.BaseTypes
 
             string ret = Original.Substring(adjustedPosA, num2 - adjustedPosA);
 
-            if (RemoveWhiteSpaces &&char.IsWhiteSpace(ret[0]))
+
+
+            if (ret.Length > 0 && RemoveWhiteSpaces && char.IsWhiteSpace(ret[0]))
                 ret = ret.Substring(1);
 
-            if (RemoveWhiteSpaces && char.IsWhiteSpace(ret[ret.Length - 1]))
+            if (ret.Length > 1 && RemoveWhiteSpaces && char.IsWhiteSpace(ret[ret.Length - 1]))
                 ret = ret.Substring(0, ret.Length - 1);
 
             return ret;
