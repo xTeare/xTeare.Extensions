@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xTeare.Extensions", "xTeare.Extensions\xTeare.Extensions.csproj", "{363C927F-E871-4325-ABBD-C53DF6D18069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xTeare.Extensions.Example", "xTeare.Extensions.Example\xTeare.Extensions.Example.csproj", "{BDDDE1EE-69FE-4189-BB00-DECBE7972DED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{363C927F-E871-4325-ABBD-C53DF6D18069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363C927F-E871-4325-ABBD-C53DF6D18069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363C927F-E871-4325-ABBD-C53DF6D18069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363C927F-E871-4325-ABBD-C53DF6D18069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDDE1EE-69FE-4189-BB00-DECBE7972DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDDE1EE-69FE-4189-BB00-DECBE7972DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDDE1EE-69FE-4189-BB00-DECBE7972DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDDE1EE-69FE-4189-BB00-DECBE7972DED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D010622-10DA-464C-A3FC-2367AD4CF855}
+	EndGlobalSection
+EndGlobal
