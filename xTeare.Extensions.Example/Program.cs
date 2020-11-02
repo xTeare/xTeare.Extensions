@@ -75,11 +75,11 @@ namespace xTeare.Extensions.Example
             string original = "The quick brown fox jumps over the lazy dog";
             Console.WriteLine($":: Search for any word(s) in this string '{original}'");
 
-            Console.Write(":: Enter first string : ");
-            string a = Console.ReadLine();
+            Console.Write(":: Enter start string : ");
+            string start = Console.ReadLine();
 
-            Console.Write(":: Enter second string : ");
-            string b = Console.ReadLine();
+            Console.Write(":: Enter end string : ");
+            string end = Console.ReadLine();
 
 
             Console.Write(":: Remove WhiteSpaces [y/n] : ");
@@ -92,9 +92,9 @@ namespace xTeare.Extensions.Example
             Console.WriteLine();
             Console.WriteLine($":: Between Example results");
             Console.WriteLine();
-            Console.WriteLine($":: Recieve string between '{a}' and '{b}'");
+            Console.WriteLine($":: Recieve string between '{start}' and '{end}'");
             Console.WriteLine($":: in '{original}'");
-            Console.WriteLine($":: Found string : '{original.Between(a, b, removeWhiteSpace, ignoreCase)}'");
+            Console.WriteLine($":: Found string : '{original.Between(start, end, removeWhiteSpace, ignoreCase)}'");
 
         }
 
